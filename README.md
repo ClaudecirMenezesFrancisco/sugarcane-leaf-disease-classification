@@ -1,5 +1,3 @@
-# sugarcane-leaf-disease-classification
-Classificação de doenças em folhas de cana-de-açúcar com CNN e MobileNetV2
 # 🌾 Identificação de doenças em folhas de cana-de-açúcar com Inteligência Artificial
 
 **Estudo acadêmico de classificação de imagens com redes neurais convolucionais (CNN) e transferência de aprendizado (transfer learning).**
