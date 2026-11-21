@@ -103,7 +103,26 @@ A apresentação de **21 páginas** reúne a motivação do estudo, os cuidados 
 
 ## 💻 Código e reprodução
 
-Os arquivos de código/notebooks do experimento serão adicionados ao repositório. **As instruções para execução e as versões das bibliotecas serão documentadas depois da conferência do código original**, para evitar informar comandos ou dependências incorretos.
+O notebook reúne todas as etapas do experimento, desde a preparação das imagens até o treinamento, a comparação e a avaliação das três redes neurais.
+
+O estudo inclui:
+
+- Preparação e limpeza da base de imagens.
+- Identificação e remoção de imagens duplicadas.
+- Desenvolvimento de uma CNN do zero.
+- Treinamento da MobileNetV2 com transferência de aprendizado.
+- Ajuste fino da MobileNetV2.
+- Comparação dos resultados e análise dos erros.
+- Visualização das regiões das imagens com Grad-CAM.
+
+📓 **[Acessar o notebook completo](classificacao_doencas_cana_portfolio_revisado.ipynb)**
+
+**Ambiente utilizado:** Google Colab com GPU NVIDIA T4.
+
+Para reproduzir o experimento, é necessário obter a base de imagens original e ajustar os caminhos de carregamento dos dados.
+
+**Melhor resultado:** 88,3% de acurácia em 343 imagens de teste.
+
 
 ## 📚 Referências e créditos
 
